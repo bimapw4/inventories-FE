@@ -1,8 +1,7 @@
 <template>
   <div>
-    <div class="text-4xl text-red-500">Hello Tailwind!</div>
-    <!-- <NuxtLayout>
+    <NuxtLayout>
       <NuxtPage />
-    </NuxtLayout> -->
+    </NuxtLayout>
   </div>
 </template>

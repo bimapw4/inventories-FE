@@ -5,7 +5,7 @@
       <DateRangePicker v-model:start="start" v-model:end="end" />
     </header>
 
-    <div class="grid grid-cols-6 gap-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       <DashboardCard title="📈 Penjualan per Bulan">
         <SalesChart :start="start" :end="end" />
       </DashboardCard>

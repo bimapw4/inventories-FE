@@ -5,7 +5,7 @@
         <th class="px-3 py-2">#</th>
         <th class="px-3 py-2">Nama Produk</th>
         <th class="px-3 py-2">Qty</th>
-        <th class="px-3 py-2">Total</th>
+        <th class="px-3 py-2 text-right">Total</th>
       </tr>
     </thead>
     <tbody>
@@ -13,7 +13,7 @@
         <td class="px-3 py-2 font-medium text-gray-700">{{ index + 1 }}</td>
         <td class="px-3 py-2">{{ item.name }}</td>
         <td class="px-3 py-2">{{ item.totalQty }}</td>
-        <td class="px-3 py-2 font-semibold text-right text-blue-600">
+        <td class="px-3 py-2 font-semibold text-right text-black-600">
           {{ formatCurrency(item.totalValue) }}
         </td>
       </tr>
